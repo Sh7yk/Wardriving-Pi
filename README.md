@@ -193,6 +193,7 @@ select the editor nano or vim, at the end of the file we write the following lin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * * * * * /bin/check-and-connect-bt-pan.sh
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 save and exit
 
 reboot
