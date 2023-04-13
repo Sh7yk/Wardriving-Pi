@@ -134,7 +134,9 @@ From now on, it will be possible to connect to the raspberry from any vnc client
 ATTENTION! in order to connect to raspberry, you must be on the same network! we try to connect from the phone using the vnc client, everything should work.
 _________________________________________________________________________________________________________________________________________________________________
 To work via vnc or ssh via bluetooth:
-\|/\|/ why is this needed \|/\|/
+
+--------why is this needed-----
+
 To audit wireless networks, we need to disable all interfering services with the "airmon-ng check kill" command,
 one of them is NetworkManager, which is responsible for all network connections of the raspberry.
 That is, we lose control over the raspberry while working in vnc by running the "airmon-ng check kill" command.
@@ -229,4 +231,5 @@ To remove this virtual interface, simply stop it in airmon-ng:
 >airmon-ng stop mon0
 ~~~~~~~~~~~~~~~~~~~~~
 or reboot the system
+
 Bye
