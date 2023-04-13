@@ -1,8 +1,11 @@
 # Wardriving-Pi
-Complete instructions for setting up Raspberry Pi for auditing Wi-Fi using a phone  or tablet
+Complete instructions for setting up Raspberry Pi for auditing Wi-Fi using a phone  or tablet.
+
+Unlike kali nethanter, in this case you don't have to connect the adapter directly to the phone and look suspicious. Raspberry + adapter + power bank + backpack or pocket and feel free to walk! You are an ordinary person buried in a smartphone.Besides, it is a complete kali with everything you need
 
 !!!All explanations of the GUI part are relevant for the xfce graphical shell, which comes by default 
 if you download Kali for raspberry pi from the official site!!!
+
 Instructions for beginners and not only, so the explanations go step by step.
 So, you already have a cd card (take the fastest one you can find,SanDisk Extreme Go worked great) 
 with downloaded kali linux image for raspberry pi,
@@ -158,7 +161,7 @@ Wake up the bluetooth service on raspberry and install all dependencies:
 >systemctl start bluetooth.service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 reboot
-
+**********************
 8. The bluetooth icon should appear on the panel, click on it:
 
 Adapters> select the desired adapter (the built-in one is enough, but you can use an external dongle) and make it "always visible"> close
@@ -177,7 +180,7 @@ Right-click on our phone in the list of devices, select "network access point" (
 
 From the top right, notifications about the connection of bnep0 and the ip address issued to the raspberry should pop up, let's write it down.
 it is at this address that we will work in vnc via bluetooth, that is, connecting via wifi and bluetooth will occur at our personal addresses (two different sessions)!
-
+****************************************
 12. Click again on the bluetooth icon:
 Service Center>PAN support and DUN support choose blueman
 (IT IS IMPORTANT!!!)
@@ -201,7 +204,7 @@ Now you just need to take the phone, find the raspberry in the list of bluetooth
 on the phone and by the ip address of the raspberry, connect to vnc or in the ssh terminal emulator.
 
 --DO NOT BLINDLY TEST FOR THE FIRST TIME! CONNECT A MONITOR, MOUSE, KEYBOARD TO ELIMINATE POSSIBLE PROBLEMS--
-================================================
+----------
 
 We do a trial shutdown of network services using the "airmon-ng check kill" command, the connection should not be lost,
 if you got kicked out, something went wrong and the bt-pan script didn't work, check the logs.
