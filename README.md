@@ -192,12 +192,12 @@ and if lost, it will reconnect:
 select the editor nano or vim, at the end of the file we write the following line:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * * * * * /bin/check-and-connect-bt-pan.sh
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+***************************************************************************************
 save and exit
 
 reboot
-
+****************************************************************************************
 FINALLY THIS IS ALL
 
 Now you just need to take the phone, find the raspberry in the list of bluetooth devices, connect to it, turn on the bluetooth modem (bluetooth access point)
