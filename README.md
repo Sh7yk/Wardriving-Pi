@@ -192,25 +192,23 @@ and if lost, it will reconnect:
 select the editor nano or vim, at the end of the file we write the following line:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * * * * * /bin/check-and-connect-bt-pan.sh
-
-***************************************************************************************
-save and exit
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 reboot
-****************************************************************************************
-FINALLY THIS IS ALL
+***************************************************************************************
+
 
 Now you just need to take the phone, find the raspberry in the list of bluetooth devices, connect to it, turn on the bluetooth modem (bluetooth access point)
 on the phone and by the ip address of the raspberry, connect to vnc or in the ssh terminal emulator.
 
 --DO NOT BLINDLY TEST FOR THE FIRST TIME! CONNECT A MONITOR, MOUSE, KEYBOARD TO ELIMINATE POSSIBLE PROBLEMS--
+================================================
 
 We do a trial shutdown of network services using the "airmon-ng check kill" command, the connection should not be lost,
 if you got kicked out, something went wrong and the bt-pan script didn't work, check the logs.
 Also try to interrupt the session yourself, for example, by turning off the bluetooth on the phone, 
 then turn it back on, also check that the bluetooth modem, it must be turned on. Within a minute, you should be able to access
-the raspberry again. If this is not the case, check if you wrote the task in cron correctly.
-==================================================================================================
+the raspberries again. If this is not the case, check if you wrote the cron task correctly.
+**********************************************************************************************************************************
   This is the minimum settings that are necessary for the normal operation of the wardriver with the Raspberry Pi from the start.
 Good luck Warrior driving!
 ************************************************************************************************************************
