@@ -195,7 +195,7 @@ select the editor nano or vim, at the end of the file we write the following lin
 save and exit
 
 reboot
-******************************************************* *********************
+
 FINALLY THIS IS ALL
 
 Now you just need to take the phone, find the raspberry in the list of bluetooth devices, connect to it, turn on the bluetooth modem (bluetooth access point)
@@ -211,7 +211,7 @@ the raspberry again. If this is not the case, check if you wrote the task in cro
 ==================================================================================================
   This is the minimum settings that are necessary for the normal operation of the wardriver with the Raspberry Pi from the start.
 Good luck Warrior driving!
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+************************************************************************************************************************
 BONUS
 The raspberry pi has a wifi adapter installed that supports all the functions we need, injections, monitoring, and even AP,
 although the Internet says that this is not the case.
