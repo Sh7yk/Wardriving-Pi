@@ -190,8 +190,9 @@ and if lost, it will reconnect:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 select the editor nano or vim, at the end of the file we write the following line:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * * * * * /bin/check-and-connect-bt-pan.sh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 save and exit
 
 reboot
