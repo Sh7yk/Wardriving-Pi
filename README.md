@@ -158,7 +158,7 @@ Wake up the bluetooth service on raspberry and install all dependencies:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 >apt install bluetooth bluez bluez-tools bluez-firmware pi-bluetooth
 >systemctl enable hciuart.service
->systemctl start hcuart.service
+>systemctl start hciuart.service
 >systemctl enable bluetooth.service
 >systemctl start bluetooth.service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
